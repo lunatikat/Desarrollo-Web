@@ -1,3 +1,25 @@
-.containerAdoptar {
-    border: 1px black solid;
+
+.containerDiv{
+	min-height: 580px;
+	width: 70%;
+	padding: 15px;
+	background-color: white;
+	color: fff;
+	margin: 20px auto;
+}
+.imgContainer{
+	float: left;
+	margin-right: 15px;
+}
+.containerDiv2{
+	min-height: 580px;
+	width: 70%;
+	padding: 15px;
+	background-color: white;
+	color: fff;
+	margin: 20px auto;
+}
+.imgContainer2{
+	float: right;
+	margin-left: 15px;
 }

@@ -1,12 +1,12 @@
 .articleC {
 	padding: auto;
-	@include flexall (column, wrap, center, center,center,center,0px);
+	@include flexall (column, wrap, start, center ,center,center,0px);
 	margin: auto;
 	width: 100%;
-	background: #15003b;
+	background: #FFD9E3;
 	border-radius: 4px;
 	color: white;
-	min-height: 1400px;
+	min-height: 1600px;
 	font-family: 'calibri';
 	box-shadow: 7px 13px 37px #000;
 
@@ -27,7 +27,7 @@
 	}
 	.botons {
 		width: 100%;
-		background: #1f53c5;
+		background: #FF66AB;
 		border: none;
 		padding: 12px;
 		color: white;
@@ -56,10 +56,10 @@
 	}
 	.formInput {
 		width: 80vh;
-		background: #24303c;
+		background: #bec6ce;
 		padding: 10px;
 		border-radius: 4px;
-		border: 1px solid #1f53c5;
+		border: 1px solid #FF66AB;
 		font-size: 18px;
 		color: white;
 		margin-bottom: 16px;
@@ -69,8 +69,8 @@
 		display: flex;
 		justify-content: center;
 		justify-items: center;
-		width: 75vh;
-		background: #24303c;
+		@include sizes (75vh, auto);
+		background: #bec6ce;
 		color: white;
 		min-height: 200px;
 		min-width: 600px;
